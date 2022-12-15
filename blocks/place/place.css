@@ -1,16 +1,16 @@
 .place {
- margin: 0;
- padding: 0;
- margin-bottom: 80px;
- display: grid;
-grid-template-columns: repeat(2, auto);
-gap: 48px 40px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 48px 40px;
 
 }
 
 @media screen and (max-width: 1024px) {
     .place {
-       margin-bottom: 58px;
+        margin-bottom: 58px;
         gap: 48px 12px;
     }
 }
