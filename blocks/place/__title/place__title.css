@@ -4,27 +4,27 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 1.05;
-    width: 460px;
+    max-width: 460px;
+    width: 100%;
     margin: 0;
     padding: 0;
+    
 }
 
 @media screen and (max-width: 768px) {
     .place__title {
-    width: 330px;
-    font-size: 42px;
-    line-height: 46px;
-    margin-bottom: 20px;
-    margin: 0;
+        max-width: 330px;
+        font-size: 42px;
+        line-height: 1.05;
+        
     }
 }
 
 @media screen and (max-width: 320px) {
     .place__title {
-        width: 288px;
+        max-width: 288px;
         font-size: 32px;
-        line-height: 35px;
-        padding: 0 16px;
-        margin: 0;
+        line-height: 1.09;
+        padding:0 16px;
     }
 }

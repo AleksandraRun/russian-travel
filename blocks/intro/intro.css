@@ -1,27 +1,27 @@
 .intro {
-    width: calc(100% - (148px + 442px));
+    max-width: calc(100% - (148px + 442px));
+    width: 100%;
     margin: 0;
     padding: 40px 442px 92px 148px;
 }
 
 @media screen and (max-width: 1024px) {
     .intro {
-        width: calc(100% - 2 * 48px);
+        max-width: calc(100% - 2 * 48px);
         padding: 92px 268px 92px 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
-        width: calc(100% - 2 * 24px);
-        padding-left: 24px;
-        padding-top: 90px;
+        max-width: calc(100% - 2 * 24px);
+        padding: 88px 24px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .intro {
-        width: 250px;
+        max-width: 288px;
         margin: 64px 0;
         padding: 0 16px;
     }

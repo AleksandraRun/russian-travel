@@ -1,5 +1,6 @@
 .place__img {
-    width: 460px;
+    width: 100%;
+    max-width: 460px;
     height: 460px;
     margin: 0;
     padding: 0;
@@ -7,13 +8,21 @@
 
 @media screen and (max-width: 768px) {
     .place__img {
-        max-width: 340px;
+        max-width: 440px;
+        height: 440px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .place__img {
+        max-width: 340px;
+        height: 340px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place__img {
         max-width: 320px;
-    max-height: 320px;
-  
+        height: 320px;
     }
 }

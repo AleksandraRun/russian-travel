@@ -10,15 +10,24 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        margin-bottom: 58px;
-        gap: 48px 12px;
+        margin-bottom: 62px;
+        column-gap: 12px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place {
-        width: 100%;
-        grid-template-columns: auto;
-        gap: 32px;
+      max-width: 768px;
+      margin-bottom: 48px;
+      column-gap: 28px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+      max-width: 320px;
+      grid-template-columns: repeat(1, auto);
+      gap: 32px;
+      margin-bottom: 25px;
     }
 }
