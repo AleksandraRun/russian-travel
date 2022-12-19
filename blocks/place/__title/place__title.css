@@ -11,6 +11,13 @@
     
 }
 
+@media screen and (max-width: 1024px) {
+    .place__title {
+        max-width: 440px;
+        line-height: 76px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .place__title {
         max-width: 330px;

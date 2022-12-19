@@ -6,6 +6,7 @@
   align-self: end;
 }
 
+
 @media screen and (max-width: 786px) {
     .place__website {
       max-width: 352px;
