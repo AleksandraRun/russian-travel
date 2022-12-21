@@ -8,20 +8,14 @@
     align-self: center;
     color: #FFFFFF;
     text-align: center;
-    margin: 0;
-    margin-top: 14px;
+    margin: 0 auto;
 
 }
 
 @media screen and (max-width: 1024px) {
     .cover__title {
         margin-top: 10px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cover__title {
-        margin-top: 0px;
+        
     }
 }
 

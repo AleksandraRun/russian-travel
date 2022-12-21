@@ -1,15 +1,16 @@
 .place {
+    max-width: 100%;
     margin: 0;
-    padding: 0;
     margin-bottom: 80px;
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 48px 40px;
-
 }
+
 
 @media screen and (max-width: 1024px) {
     .place {
+        grid-template-columns: repeat(2, auto);
         margin-bottom: 70px;
         gap: 48px 32px;
     }
@@ -17,17 +18,17 @@
 
 @media screen and (max-width: 768px) {
     .place {
-      max-width: 768px;
-      margin-bottom: 40px;
+        grid-template-columns: repeat(2, auto);
+      margin-bottom: 34px;
       gap: 48px 28px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .place {
-      max-width: 320px;
-      grid-template-columns: repeat(1, auto);
-      margin-bottom: 26px;
+     margin-bottom: 23px;
+      grid-template-columns: repeat(1, 1fr);
       gap: 32px;
+    
     }
 }

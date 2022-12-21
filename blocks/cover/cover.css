@@ -5,13 +5,14 @@
     margin-left: 48px;
     background-image: url(./../../images/__background.jpg);
     background-size: cover;
+    margin: 92px auto;
 }
 
 @media screen and (max-width: 1024px) {
     .cover {
         max-width: 1024px;
         height: 640px;
-        margin-left: 0;
+       
     }
 }
 

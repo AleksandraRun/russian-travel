@@ -5,9 +5,10 @@
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
-    line-height: 1.07;
+    line-height: 58px;
     margin: 0 0 38px 0;
-    padding: 0;
+    text-align: left;
+    
 }
 
 @media screen and (max-width: 1024px) {
