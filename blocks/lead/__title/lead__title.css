@@ -9,13 +9,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
-    .lead__title {
-        
-    }
-}
-
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 767px) {
     .lead__title {
         max-width: 288px;
         height: 88px;
@@ -23,6 +17,17 @@
         font-size: 40px;
         line-height: 44px;
         margin: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .lead__title {
+       /* max-width: 288px;
+        height: 88px;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 44px;
+        margin: 0;*/
 
     }
 }
