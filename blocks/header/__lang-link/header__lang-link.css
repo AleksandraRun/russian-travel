@@ -8,19 +8,12 @@
     list-style-type: none;
     text-decoration: none;
     color: #fff;
-    transition: 0.4s ease-in;
 }
 
 .header__lang-link:last-child {
     margin-right: 0;
 }
 
-.header__lang-link:hover {
-    transition: unset;
-    border: unset;
-    text-decoration: underline;
-    opacity: 0.8;
-}
 
 
 @media screen and (max-width: 320px) {
