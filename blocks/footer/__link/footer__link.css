@@ -9,7 +9,7 @@ color: #fff;
 margin: 0;
 margin-right: 14px;
 width: max-content;
-text-transform: 0.4s;
+transform: 0.4s;
 }
 
 .footer__link:hover {
