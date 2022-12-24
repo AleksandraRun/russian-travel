@@ -1,6 +1,5 @@
 .footer__link {
 font-family: 'Inter', 'Arial', sans-serif;
-width: 50px;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -9,7 +8,7 @@ text-decoration: none;
 color: #fff;
 margin: 0;
 margin-right: 14px;
-max-width: 50px;
+width: max-content;
 text-transform: 0.4s;
 }
 
@@ -25,7 +24,7 @@ text-transform: 0.4s;
 
 @media screen and (max-width: 320px) {
     .footer__link {
-        width: 158px;
+      
         font-size: 24px;
         line-height: 24px;
         margin-right: 0;
