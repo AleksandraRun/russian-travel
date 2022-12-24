@@ -1,8 +1,6 @@
 .header__lang-links {
-    text-decoration: none;
     display: flex;
     margin: 18px 0 0;
-    
 }
 
     @media screen and (max-width: 768px) {

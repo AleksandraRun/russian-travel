@@ -11,10 +11,10 @@ color: #AAAAAA;
 margin: 0;
 padding: 0;
 margin-bottom: 15px;
-
+text-transform: uppercase;
 
 }
 
-/*@media screen and (max-width: 1024px) {
-    
-}*/
+.place__url-heading:hover {
+    opacity: 0.8;
+}

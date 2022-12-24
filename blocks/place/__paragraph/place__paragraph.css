@@ -7,10 +7,10 @@
     color: #FFFFFF;
     margin: 0;
     margin-bottom: 26px;
-   
-   
-    
+}
 
+.place:last-child {
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
