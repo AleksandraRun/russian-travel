@@ -9,6 +9,13 @@
 }
 
 
+@media screen and (max-width: 800px) {
+    .lead__title {
+        font-size: 70px;
+       
+    }
+}
+
 
 
 @media screen and (max-width: 600px) {
